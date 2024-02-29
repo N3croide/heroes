@@ -1,0 +1,175 @@
+{
+    "marvel": [
+      {
+        "id": "5d86371f1efebc31def272e2",
+        "about": "Pantera Negra, también conocido como T'Challa, es el rey de la ficticia nación africana de Wakanda. Poseyendo fuerza sobrehumana, agilidad y sentidos mejorados, es un guerrero formidable y un estratega hábil.",
+        "picture": "https://cdn.marvel.com/content/1x/007blp_ons_crd_02.jpg",
+        "name": "Black Panther"
+      },
+      {
+        "id": "5d86371f1efebc31def272e3",
+        "about": "Natasha Romanoff, también conocida como Viuda Negra, es una espía y asesina altamente capacitada. Entrenada en la Sala Roja, posee habilidades excepcionales en artes marciales, agilidad y es una experta en espionaje.",
+        "picture": "https://cdn.marvel.com/content/1x/011blw_ons_crd_04.jpg",
+        "name": "Black Widow"
+      },
+      {
+        "id": "5d86371f1efebc31def272e4",
+        "about": "Steve Rogers, conocido como Capitán América, es un super soldado con fuerza mejorada, agilidad y un escudo indestructible. Es un símbolo de heroísmo y líder de los Vengadores.",
+        "picture": "https://cdn.marvel.com/content/1x/003cap_ons_crd_03.jpg",
+        "name": "Captain America"
+      },
+      {
+        "id": "5d86371f1efebc31def272e5",
+        "about": "El Doctor Stephen Strange, antiguo neurocirujano, es el Hechicero Supremo. Dominando las artes místicas, protege la Tierra de amenazas mágicas y sobrenaturales.",
+        "picture": "https://cdn.marvel.com/content/1x/009drs_ons_crd_03.jpg",
+        "name": "Doctor Strange"
+      },
+      {
+        "id": "5d86371f1efebc31def272e6",
+        "about": "Drax el Destructor es un poderoso guerrero en busca de venganza por la muerte de su familia. Conocido por su comprensión literal del lenguaje y su increíble fuerza, es miembro de los Guardianes de la Galaxia.",
+        "picture": "https://cdn.marvel.com/content/1x/025drx_ons_crd_03.jpg",
+        "name": "Drax"
+      },
+      {
+        "id": "5d86371f1efebc31def272e7",
+        "about": "Gamora, la hija adoptiva de Thanos, es una hábil asesina en busca de redención. Es miembro de los Guardianes de la Galaxia y posee fuerza mejorada y habilidades de combate.",
+        "picture": "https://cdn.marvel.com/content/1x/022gam_ons_crd_02.jpg",
+        "name": "Gamora"
+      },
+      {
+        "id": "5d86371f1efebc31def272e8",
+        "about": "Groot es una criatura consciente similar a un árbol y miembro de los Guardianes de la Galaxia. Tiene la capacidad de regenerarse y crecer, a menudo se comunica con la frase 'Soy Groot'.",
+        "picture": "https://cdn.marvel.com/content/1x/024grt_ons_crd_02.jpg",
+        "name": "Groot"
+      },
+      {
+        "id": "5d86371f1efebc31def272e9",
+        "about": "Heimdall es el centinela asgardiano que todo lo ve y todo lo oye del Bifrost. Como guardián del puente, tiene sentidos excepcionales y es un leal aliado de Thor y los asgardianos.",
+        "picture": "https://cdn.marvel.com/content/1x/116hdl_ons_crd_01-1.jpg",
+        "name": "Heimdall"
+      },
+      {
+        "id": "5d86371f1efebc31def272ea",
+        "about": "Bruce Banner, también conocido como Hulk, es un científico expuesto a radiación gamma, transformándose en un gigantesco monstruo verde con fuerza y resistencia increíbles.",
+        "picture": "https://cdn.marvel.com/content/1x/006hbb_ons_crd_03.jpg",
+        "name": "Hulk"
+      },
+      {
+        "id": "5d86371f1efebc31def272eb",
+        "about": "Tony Stark, también conocido como Iron Man, es un genio multimillonario y filántropo. Utilizando su traje de poder, lucha contra amenazas a la humanidad y es un miembro clave de los Vengadores.",
+        "picture": "https://cdn.marvel.com/content/1x/002irm_ons_crd_03.jpg",
+        "name": "Iron Man"
+      },
+      {
+        "id": "5d86371f1efebc31def272ec",
+        "about": "Mantis es una empática y hábil artista marcial con la capacidad de sentir emociones. Es miembro de los Guardianes de la Galaxia y aporta perspicacia única al equipo.",
+        "picture": "https://cdn.marvel.com/content/1x/045mts_ons_crd_03.jpg",
+        "name": "Mantis"
+      },
+      {
+        "id": "5d86371f1efebc31def272ed",
+        "about": "Rocket, un mapache genéticamente mejorado, es un experto tirador y piloto. Es miembro de los Guardianes de la Galaxia y suele asociarse con Groot en diversas misiones.",
+        "picture": "https://cdn.marvel.com/content/1x/023rra_ons_crd_04.jpg",
+        "name": "Rocket"
+      },
+      {
+        "id": "5d86371f1efebc31def272ee",
+        "about": "Wanda Maximoff, también conocida como Bruja Escarlata, posee habilidades para alterar la realidad. Es una poderosa miembro de los Vengadores, enfrentándose a sus propios conflictos y desafíos.",
+        "picture": "https://cdn.marvel.com/content/1x/012scw_ons_crd_03.jpg",
+        "name": "Scarlet Witch"
+      }
+    ],
+    "dc": [
+      {
+        "id": "5d86371f1efebc31def272ef",
+        "about": "Raven es una poderosa empática y mística, poseedora de habilidades oscuras y mágicas. A menudo está asociada con los Jóvenes Titanes y es un personaje complejo que lidia con sus luchas internas.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_Raven2_5c525571ef82a6.09738300.jpg?w=640",
+        "name": "Raven"
+      },
+      {
+        "id": "5d86371f1efebc31def272f0",
+        "about": "Kal-El, conocido como Superman, es el último hijo de Krypton. Poseyendo fuerza sobrehumana, vuelo y visión de calor, es el protector más poderoso de la Tierra y un símbolo de esperanza.",
+        "picture": "https://static.dc.com/2023-02/Char_WhosWho_Superman_20190116_5c3fc71f524f38.28405711.jpg?w=184",
+        "name": "Superman"
+      },
+      {
+        "id": "5d86371f1efebc31def272f1",
+        "about": "Bruce Wayne, también conocido como Batman, es un multimillonario playboy y un detective altamente habilidoso. Utilizando su intelecto y tecnología avanzada, combate el crimen como el Caballero Oscuro.",
+        "picture": "https://static.dc.com/2023-02/Char_WhosWho_Batman_20190116_5c3fc4b40faf04.59002472.jpg?w=184",
+        "name": "Batman"
+      },
+      {
+        "id": "5d86371f1efebc31def272f2",
+        "about": "Diana Prince, también conocida como Wonder Woman, es una princesa guerrera amazona. Dotada de fuerza sobrehumana y poderes divinos, lucha por la justicia y la paz.",
+        "picture": "https://static.dc.com/2023-02/Char_WhosWho_WonderWoman_20190116_5c3fc6aa51d124.25659603.jpg?w=184",
+        "name": "Wonder Woman"
+      },
+      {
+        "id": "5d86371f1efebc31def272f3",
+        "about": "Hal Jordan, también conocido como Green Lantern, es miembro del Cuerpo de Green Lantern intergaláctico. Poseyendo un anillo de poder alimentado por la fuerza de voluntad, protege el universo de amenazas.",
+        "picture": "https://static.dc.com/2023-02/Char_WhosWho_WonderWoman_20190116_5c3fc6aa51d124.25659603.jpg?w=184",
+        "name": "Green Lantern"
+      },
+      {
+        "id": "5d86371f1efebc31def272f4",
+        "about": "Barbara Gordon, también conocida como Batgirl, es una hábil artista marcial y detective. Inspirada por Batman, combate el crimen para proteger Ciudad Gótica.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_Batgirl_5c410fd9aa14d0.53215721.jpg?w=640",
+        "name": "Batgirl"
+      },
+      {
+        "id": "5d86371f1efebc31def272f5",
+        "about": "Garfield Logan, también conocido como Beast Boy, tiene la capacidad de transformarse en varios animales. Es miembro de los Jóvenes Titanes y aporta humor y alegría al equipo.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_BeastBoy_5c411282c5c040.32747717.jpg?w=640",
+        "name": "Beast Boy"
+      },
+      {
+        "id": "5d86371f1efebc31def272f6",
+        "about": "Selina Kyle, también conocida como Catwoman, es una hábil ladrona de guante blanco y antiheroína. Con su agilidad y látigo, navega entre el crimen y la justicia.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_Catwoman_5c47c984ed1bf1.93808647.jpg?w=640",
+        "name": "Catwoman"
+      },
+      {
+        "id": "5d86371f1efebc31def272f7",
+        "about": "Damian Wayne es el hijo de Batman y Talia al Ghul. Entrenado por la Liga de Asesinos, es un hábil artista marcial y ha asumido el papel de Robin.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_DamianWayne_606e7e0f33bc23.76775022.jpg?w=640",
+        "name": "Damian Wayne"
+      },
+      {
+        "id": "5d86371f1efebc31def272f8",
+        "about": "Krypto es el leal perro kryptoniano de Superman con habilidades sobrehumanas. Asiste a Superman en diversas aventuras y es conocido por su lealtad inquebrantable.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_Krypto_5c4a61c3a36536.45482454.jpg?w=640",
+        "name": "Krypto"
+      },
+      {
+        "id": "5d86371f1efebc31def272f9",
+        "about": "Amatista, también conocida como Princesa de Gemworld, posee habilidades mágicas. Es la heredera legítima al trono de Gemworld y protege su reino de amenazas místicas.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_Amethyst_5c40e299329fa8.64612837.jpg?w=640",
+        "name": "Amethyst"
+      },
+      {
+        "id": "5d86371f1efebc31def272fa",
+        "about": "Arthur Curry, también conocido como Aquaman, es el rey de Atlantis. Poseyendo fuerza sobrehumana, habilidades acuáticas y el Tridente de Neptuno, defiende los mares y el mundo surface.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_Aquaman_5c411a95e70ff5.50429372.jpg?w=640",
+        "name": "Aquaman"
+      },
+      {
+        "id": "5d86371f1efebc31def272fb",
+        "about": "Tim Drake, también conocido como Robin, es un hábil acróbata y detective. Ha sido un aliado confiable y compañero de Batman, luchando contra el crimen en Ciudad Gótica.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_Robin_5c5c888fd675e4.98555002.jpg?w=384",
+        "name": "Robin"
+      },
+      {
+        "id": "5d86371f1efebc31def272fc",
+        "about": "Koriand'r, también conocida como Starfire, es una princesa alienígena con habilidades de proyección de energía. Es miembro de los Jóvenes Titanes y aporta fuerza y optimismo al equipo.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_Starfire_5f861a27cdb0f2.50441655.jpg?w=384",
+        "name": "Starfire"
+      },
+      {
+        "id": "5d86371f1efebc31def272fd",
+        "about": "Victor Stone, también conocido como Cyborg, es un exatleta convertido en mitad hombre, mitad máquina. Con mejoras cibernéticas, es un miembro poderoso de la Liga de la Justicia.",
+        "picture": "https://static.dc.com/dc/files/default_images/Char_Thumb_Cyborg_20190116_5c3fcd9048a0e1.41912254.jpg?w=384",
+        "name": "Cyborg"
+      }
+    ]
+  }
+  

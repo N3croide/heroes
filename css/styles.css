@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 10dvh;
+    min-height: 62px;
+    backdrop-filter: blur(8px);
+}
+
+header #header{
+    height: 100%;
+    padding: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;  
+}
+
+
+#switch{
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    min-width: 70px;
+    max-width: 50px;
+    height: 100%;
+}
+
+#sliderCB{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(214, 0, 0);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+    height: 80%;
+}
+
+#slider:before{
+    position: absolute;
+    content: "";
+    max-width: 30px;
+    min-height: 20px;
+    height:80%;
+    width: 42%;
+    left: 4px;
+    bottom: 4px;
+    background-color: black;
+    -webkit-transition: .4s;
+    transition: .4s;    
+    border-radius: 50%;
+}
+
+input:checked + #slider{
+    background-color: #005fac;
+}
+
+
+input:checked + #slider::before{
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+#buscador{
+    height: 20px;
+    margin-top: 0.9%;
+    width: 40%;
+}
+main{
+    background: url('https://www.shutterstock.com/image-photo/high-definition-star-field-colorful-600nw-1036688914.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+#mainContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,270px);
+    justify-content: center;
+    grid-auto-rows: 390px;
+    margin: 2%;
+    gap: 20px;
+}
+
+.tarjetas{
+    border: 2px black solid;
+    margin: 4%;
+    overflow: hidden;
+    position: relative;
+}
+.tarjetas img{
+    width: 100%;
+    height: 100%;
+}
+.hoverTarjeta{
+    position: absolute;
+    bottom: 0;
+    width: 101%;
+    height: 22%;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s ease;
+    flex-direction: column;
+    transform: translateY(60%);
+    /* backdrop-filter: blur(20px); */
+    justify-content: space-around;
+}
+.tarjetas:hover > .hoverTarjeta{
+    transform: translateY(0%);
+}
+
+.botonTarjetas{
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: transparent;
+    border: 2px black solid;
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+}
