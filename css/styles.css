@@ -20,6 +20,24 @@ header #header{
     align-content: center;  
 }
 
+header #logo{
+    width: 6%;
+    transition: opacity 0.4s ease;
+    opacity: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#heeader:has(#switch > #slider:checked) > #logo {
+    animation: fadeIn 0.4s ease; 
+  }
 
 #switch{
     position: relative;
@@ -78,7 +96,7 @@ input:checked + #slider::before{
 
 #buscador{
     height: 20px;
-    margin-top: 0.9%;
+    margin: auto;
     width: 40%;
 }
 main{
@@ -97,6 +115,7 @@ main{
     grid-auto-rows: 390px;
     margin: 2%;
     gap: 20px;
+    transition: all ease;
 }
 
 .tarjetas{
@@ -123,8 +142,8 @@ main{
     transition: 0.5s ease;
     flex-direction: column;
     transform: translateY(60%);
-    /* backdrop-filter: blur(20px); */
     justify-content: space-around;
+    gap:20%;
 }
 .tarjetas:hover > .hoverTarjeta{
     transform: translateY(0%);
@@ -136,7 +155,9 @@ main{
     border: none;
     background-color: transparent;
     border: 2px black solid;
-    background-color: green;
+    background-color: rgba(25, 190, 25, 0.739);
     padding: 10px;
     border-radius: 20px;
+    font-size: 0.8rem;
+    width: 35%;
 }
