@@ -159,8 +159,7 @@ main{
     height: 100%;
     min-height: 100dvh;
     backdrop-filter: blur(80px);
-    transition: opacity 0.2s ease-in-out;
-    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 #modal #containerModal img{
     width: 70%;
@@ -213,4 +212,10 @@ main{
 
 #modal.fade{
     opacity: 1;
+}
+
+#buscador{
+    border-radius: 10px;
+    box-shadow: 1px 5px 7px 1px black;
+    padding-left: 15px;
 }

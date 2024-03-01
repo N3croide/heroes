@@ -102,6 +102,19 @@ isChecked();
 
 cb.addEventListener('change',isChecked);
 
+let buscador = document.getElementById('buscador');
 
-
+buscador.addEventListener('keyup',()=>{
+  console.log(buscador.value)
+  let input = buscador.value.toLowerCase();
+  let heroes = document.getElementsByClassName('tarjetas');
+  for(let i = 0; i < heroes.length; i++){
+    if(!heroes[i].getElementsByClassName('hoverTarjeta')[0].innerText.toLowerCase().includes(input)){
+      heroes[i].style.display = "none";
+    }
+    else {
+      heroes[i].style.display = "unset";
+    }
+  }
+})
 
