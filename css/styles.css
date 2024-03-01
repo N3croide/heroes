@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -22,22 +24,8 @@ header #header{
 
 header #logo{
     width: 6%;
-    transition: opacity 0.4s ease;
     opacity: 100%;
 }
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-#heeader:has(#switch > #slider:checked) > #logo {
-    animation: fadeIn 0.4s ease; 
-  }
 
 #switch{
     position: relative;
@@ -113,7 +101,6 @@ main{
     grid-template-columns: repeat(auto-fill,270px);
     justify-content: center;
     grid-auto-rows: 390px;
-    margin: 2%;
     gap: 20px;
     transition: all ease;
 }
@@ -160,4 +147,70 @@ main{
     border-radius: 20px;
     font-size: 0.8rem;
     width: 35%;
+}
+
+#modal{
+    display: none;
+    position:fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100dvh;
+    backdrop-filter: blur(80px);
+    transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+}
+#modal #containerModal img{
+    width: 70%;
+    height: 100%;
+    grid-row: 2;
+    border-radius: 20px;
+}
+#modal #containerModal #about{
+    grid-row: 2;
+}
+#modal #containerModal{
+    border: 2px black solid;
+    display: grid;
+    padding: 3%;
+    padding-top: 5%;
+    width: 40vw;
+    min-width: 290px;
+    margin: 5% auto;
+    height: 80%;
+    grid-template-rows: 1% 69% 30%;
+    border-radius: 20px;
+    justify-items: center;
+    align-content: center;
+    background-color: rgba(178, 178, 178, 0.518);
+    gap: 10%;
+    position: relative;
+}
+
+#modal #containerModal #about{
+    grid-row: 3;
+    font-size: clamp(1.1rem, 3.1333rem + -213.3333vw, 3rem);
+    font-family: sans-serif;
+    text-align: justify;
+}
+#modal #closeModal{
+    text-decoration: none;
+    color: black;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin: 1.5% 2.5%;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+#containerModal #heroName{
+    grid-row: 1;
+    font-family: 'Bangers', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: clamp(2rem, 3.1333rem + -213.3333vw, 3rem);
+}
+
+#modal.fade{
+    opacity: 1;
 }
